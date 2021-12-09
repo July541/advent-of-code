@@ -2,6 +2,7 @@ use std::collections::HashMap;
 
 pub mod day1;
 pub mod day2;
+pub mod day3;
 // use day1::solution::sonar_sweep;
 
 pub fn f<F>() -> HashMap<String, F> where F: Fn() {
