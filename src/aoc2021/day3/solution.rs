@@ -26,8 +26,8 @@ fn calc_consumption(report: &Vec<Vec<u32>>) -> u32 {
   for row in mat {
     let mut ones = 0;
     let mut zeros = 0;
-    for digit in row {
-      if *digit == 0 as u32 {
+    for &digit in row {
+      if digit == 0 as u32 {
         zeros += 1;
       } else {
         ones += 1;
