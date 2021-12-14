@@ -2,6 +2,7 @@ pub mod day1;
 pub mod day2;
 pub mod day3;
 pub mod day4;
+pub mod day5;
 
 use std::collections::HashMap;
 
@@ -9,6 +10,7 @@ use self::day1::solution::sonar_sweep;
 use self::day2::solution::dive;
 use self::day3::solution::binary_diagnostic;
 use self::day4::solution::giant_squid;
+use self::day5::solution::hydrothermal_venture;
 
 pub fn methods() -> HashMap<String, fn()> {
   let mut methods = HashMap::new();
@@ -16,5 +18,6 @@ pub fn methods() -> HashMap<String, fn()> {
   methods.insert(String::from("aoc2021_day2"), dive as fn());
   methods.insert(String::from("aoc2021_day3"), binary_diagnostic as fn());
   methods.insert(String::from("aoc2021_day4"), giant_squid as fn());
+  methods.insert(String::from("aoc2021_day5"), hydrothermal_venture as fn());
   return methods;
 }
