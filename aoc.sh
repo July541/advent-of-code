@@ -7,4 +7,4 @@ then
   echo "Support day: 1-4"
 fi
 
-cargo test --lib aoc$1_day$2 -- --nocapture
+RUST_MIN_STACK=8388608 cargo test --lib aoc$1_day$2 -- --nocapture

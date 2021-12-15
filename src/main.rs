@@ -38,7 +38,7 @@ pub fn main() {
           println!("Not found method: {}", method_name);
           exit(ExitStatus::InvalidArgs as i32)
         }
-    }
+      }
     }
     Err(_) => safe_exit()
   }

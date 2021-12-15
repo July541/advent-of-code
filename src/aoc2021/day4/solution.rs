@@ -1,4 +1,4 @@
-#[derive(Clone, Copy)]
+#[derive(Clone)]
 struct Board {
   board: [[i32; 5]; 5],
   vis: [[bool; 5]; 5],
