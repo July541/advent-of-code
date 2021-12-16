@@ -4,6 +4,7 @@ pub mod day3;
 pub mod day4;
 pub mod day5;
 pub mod day6;
+pub mod day7;
 
 use std::collections::HashMap;
 use crate::method_map;
@@ -16,5 +17,6 @@ pub fn methods() -> HashMap<String, fn()> {
   , 2021 => 4 => day4::giant_squid
   , 2021 => 5 => day5::hydrothermal_venture
   , 2021 => 6 => day6::lantern_fish
+  , 2021 => 7 => day7::the_treachery_of_whales
   ]
 }
