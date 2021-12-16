@@ -19,5 +19,6 @@ pub fn methods() -> HashMap<String, fn()> {
   , 2021 => 5 => day5::hydrothermal_venture
   , 2021 => 6 => day6::lantern_fish
   , 2021 => 7 => day7::the_treachery_of_whales
+  , 2021 => 8 => day8::seven_segment_search
   ]
 }
