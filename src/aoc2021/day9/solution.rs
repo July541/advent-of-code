@@ -85,7 +85,7 @@ fn calc_basin(mp: &Map) -> i32 {
         if res != 0 {
           vec.push(res + 1);
         }
-      } 
+      }
     }
   }
 
