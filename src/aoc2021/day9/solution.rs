@@ -85,7 +85,7 @@ fn calc_basin(mp: &Map) -> i32 {
         if res != 0 {
           vec.push(res + 1);
         }
-      }
+      } 
     }
   }
 
@@ -105,7 +105,7 @@ pub fn smoke_basin() {
 #[cfg(test)]
 mod tests {
   #[test]
-  fn aoc2021_day10() {
+  fn aoc2021_day9() {
     super::smoke_basin();
   }
 }
