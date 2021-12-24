@@ -12,6 +12,7 @@ pub mod day11;
 pub mod day12;
 pub mod day13;
 pub mod day14;
+pub mod day15;
 
 use std::collections::HashMap;
 use crate::method_map;
@@ -32,5 +33,6 @@ pub fn methods() -> HashMap<String, fn()> {
   , 2021 => 12 => day12::passage_pathing
   , 2021 => 13 => day13::transparent_origami
   , 2021 => 14 => day14::extended_polymerization
+  , 2021 => 15 => day15::chiton
   ]
 }
